@@ -33,114 +33,114 @@ div { position: absolute; }
 	top: 720px;
 	left: 0px;
 	width: 1920px;
-	height: 360.00006103516px;
+	height: 360px;
 }
 
 #pokemon_stand {
 	top: 0px;
 	left: 0px;
 	width: 1920px;
-	height: 360.00006103516px;
+	height: 360px;
 }
 
 
 #fight {
-	top: 760px;
-	left: 998px;
-	width: 434px;
-	height: 128px;
+	top: 770px;
+	left: 990px;
+	width: 430px;
+	height: 120px;
 }
 
 
 #bag {
-	top: 760px;
-	left: 1452px;
-	width: 434px;
-	height: 128px;
+	top: 770px;
+	left: 1440px;
+	width: 430px;
+	height: 120px;
 }
 
 
 #pokemon {
-	top: 908px;
-	left: 998px;
-	width: 434px;
-	height: 128px;
+	top: 900px;
+	left: 990px;
+	width: 430px;
+	height: 120px;
 }
 
 
 #run {
-	top: 908px;
-	left: 1452px;
-	width: 434px;
-	height: 128px;
+	top: 900px;
+	left: 1440px;
+	width: 430px;
+	height: 120px;
 }
 
 
 #fight_ek1 {
-	top: 760px;
-	left: 1103px;
+	top: 786px;
+	left: 1093px;
 	width: 229px;
 	height: 104px;
 	font-family: Mojangles;
 	font-size: 80px;
 	text-align: left;
-	color:#ffffff;
+	color:#4c4c4c;
 }
 
 
 #pok_mon {
-	top: 908px;
-	left: 1047px;
+	top: 916px;
+	left: 1037px;
 	width: 341px;
 	height: 104px;
 	font-family: Mojangles;
 	font-size: 80px;
 	text-align: left;
-	color:#ffffff;
+	color:#4c4c4c;
 }
 
 
 #bag_ek1 {
-	top: 760px;
-	left: 1597px;
+	top: 786px;
+	left: 1583px;
 	width: 149px;
 	height: 104px;
 	font-family: Mojangles;
 	font-size: 80px;
 	text-align: left;
-	color:#ffffff;
+	color:#4c4c4c;
 }
 
 
 #run_ek1 {
-	top: 908px;
-	left: 1597px;
+	top: 916px;
+	left: 1583px;
 	width: 149px;
 	height: 104px;
 	font-family: Mojangles;
 	font-size: 80px;
 	text-align: left;
-	color:#ffffff;
+	color:#4c4c4c;
 }
 
 
 #logo {
-	top: 760px;
-	left: 60px;
-	width: 840px;
-	height: 280px;
+	top: 770px;
+	left: 61px;
+	width: 820px;
+	height: 260px;
 }
 
 
 #what_will_you_do_ {
-	top: 793px;
-	left: 141px;
+	top: 790px;
+	left: 80px;
 	width: 684px;
 	height: 91px;
 	font-family: Mojangles;
 	font-size: 70px;
 	text-align: left;
-	color:#32323b;
+	color:#ffffff;
 }
 
 
