@@ -1,148 +1,83 @@
-/*
-	@name web_1920___1
-*/
-/* Only edit this if you know what you are doing! */
-body { margin: 0px; padding: 0px; font-family:"Arial"; /*overflow-x:hidden;*/ }
-
-/* Only edit this if you know what you are doing! */
-img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
-
-/* Only edit this if you know what you are doing! */
-div { position: absolute; }
-
-#content-container { display: table; position: relative;  overflow: hidden;  }
-
-#content-container > div{ position: relative; top:inherit; }
-#page_web_1920___1_ek1 {
-	top: 0px;
-	left: 0px;
-	width: 1920px;
-	height: 1080px;
-	overflow:hidden;
+body{
+    font-family: "mojangles";
+    font-size: 70px
 }
-
-#_bg__web_1920___1_ek2 {
-	top: 0px;
-	left: 0px;
-	width: 1920px;
-	height: 1080px;
-	background:rgba(255,255,255,255);
+#pokemon_stand{
+    position: absolute;
+    top: 720px
 }
-
-#group_1 {
-	top: 720px;
-	left: 0px;
-	width: 1920px;
-	height: 360px;
+#logo{
+    position: absolute;
+    top: 770px;
+    left: 60px
 }
-
-#pokemon_stand {
-	top: 0px;
-	left: 0px;
-	width: 1920px;
-	height: 360px;
+#what_will_you_do_{
+    color: white;
+    position: absolute;
+    top: 790px;
+    left: 80px
 }
-
-
-#fight {
-	top: 770px;
-	left: 990px;
-	width: 430px;
-	height: 120px;
+.button_fi{
+    position: absolute;
+    font-family: "mojangles";
+    left: 990px;
+    top: 770px;
+    z-index: 1;
+    width: 430px;
+    height: 120px;
+    font-size: 80px;
+    color: #4C4C4C;
+    background-image: url('skins/fight.png')
 }
-
-
-#bag {
-	top: 770px;
-	left: 1440px;
-	width: 430px;
-	height: 120px;
+.button_fi:hover{
+    color: white;
+    background-image: url('skins/fight_hover.png')
 }
-
-
-#pokemon {
-	top: 900px;
-	left: 990px;
-	width: 430px;
-	height: 120px;
+.button_po{
+    position: absolute;
+    font-family: "mojangles";
+    left: 990px;
+    top: 900px;
+    z-index: 1;
+    width: 430px;
+    height: 120px;
+    font-size: 80px;
+    color: #4C4C4C;
+    background-image: url('skins/pokemon.png')
 }
-
-
-#run {
-	top: 900px;
-	left: 1440px;
-	width: 430px;
-	height: 120px;
+.button_po:hover{
+    color: white;
+    background-image: url('skins/pokemon_hover.png')
 }
-
-
-#fight_ek1 {
-	top: 786px;
-	left: 1093px;
-	width: 229px;
-	height: 104px;
-	font-family: Mojangles;
-	font-size: 80px;
-	text-align: left;
-	color:#4c4c4c;
+.button_ba{
+    position: absolute;
+    font-family: "mojangles";
+    left: 1440px;
+    top: 770px;
+    z-index: 1;
+    width: 430px;
+    height: 120px;
+    font-size: 80px;
+    color: #4C4C4C;
+    background-image: url('skins/bag.png')
 }
-
-
-#pok_mon {
-	top: 916px;
-	left: 1037px;
-	width: 341px;
-	height: 104px;
-	font-family: Mojangles;
-	font-size: 80px;
-	text-align: left;
-	color:#4c4c4c;
+.button_ba:hover{
+    color: white;
+    background-image: url('skins/bag_hover.png')
 }
-
-
-#bag_ek1 {
-	top: 786px;
-	left: 1583px;
-	width: 149px;
-	height: 104px;
-	font-family: Mojangles;
-	font-size: 80px;
-	text-align: left;
-	color:#4c4c4c;
+.button_ru{
+    position: absolute;
+    font-family: "mojangles";
+    left: 1440px;
+    top: 900px;
+    z-index: 1;
+    width: 430px;
+    height: 120px;
+    font-size: 80px;
+    color: #4C4C4C;
+    background-image: url('skins/run.png')
 }
-
-
-#run_ek1 {
-	top: 916px;
-	left: 1583px;
-	width: 149px;
-	height: 104px;
-	font-family: Mojangles;
-	font-size: 80px;
-	text-align: left;
-	color:#4c4c4c;
+.button_ru:hover{
+    color: white;
+    background-image: url('skins/run_hover.png')
 }
-
-
-#logo {
-	top: 770px;
-	left: 61px;
-	width: 820px;
-	height: 260px;
-}
-
-
-#what_will_you_do_ {
-	top: 790px;
-	left: 80px;
-	width: 684px;
-	height: 91px;
-	font-family: Mojangles;
-	font-size: 70px;
-	text-align: left;
-	color:#ffffff;
-}
-
-
-
-/* Add your custom CSS here */
