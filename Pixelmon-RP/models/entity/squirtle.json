@@ -3,7 +3,7 @@
 	"geometry.squirtle": {
 		"texturewidth": 64,
 		"textureheight": 64,
-		"visible_bounds_width": 1,
+		"visible_bounds_width": 2,
 		"visible_bounds_height": 1,
 		"visible_bounds_offset": [0, 0.5, 0],
 		"bones": [
@@ -49,6 +49,15 @@
 				"pivot": [-3.5, 9.5, -0.5],
 				"cubes": [
 					{"origin": [-6, 6, -3], "size": [3, 4, 3], "uv": [22, 12]}
+				]
+			},
+			{
+				"name": "tail",
+				"pivot": [0, 2, 1.5],
+				"rotation": [-5, 0, 0],
+				"cubes": [
+					{"origin": [-1, 1.5, 0], "size": [2, 2, 6], "uv": [35, 31]},
+					{"origin": [-1.5, 1.5, 6], "size": [3, 5, 5], "uv": [36, 21]}
 				]
 			}
 		]

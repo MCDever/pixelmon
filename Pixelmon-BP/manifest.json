@@ -1,0 +1,23 @@
+{
+    "format_version": 1,
+  "header": {
+    "description": "The Pixelmon Behavior Pack: visit our site at ",
+    "name": "Pixelmon Addon Behavior",
+    "uuid": "bae33ab0-f2b4-4a84-bef8-48bc2a00da8a",
+    "version": [ 0, 0, 1 ]
+  },
+    "modules": [
+      {
+        "description": "Example vanilla behavior pack",
+        "type": "data",
+        "uuid": "03f4de0e-2c99-4ead-be7a-1266065e6fad",
+        "version": [ 0, 0, 1 ]
+      }
+    ],
+    "dependencies": [
+      {
+        "uuid": "1e14c795-01bc-4b40-b56b-6da3741d6289",
+        "version": [ 0, 0, 1 ]
+      }
+    ]
+}
