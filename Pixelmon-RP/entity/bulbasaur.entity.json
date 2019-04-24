@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pokemon:bulbasaur",
+      "materials": { "default": "bulbasaur" },
+      "textures": {
+        "normal": "textures/entity/bulb",
+        "shiny": "textures/entity/shiny_bulb"
+      },
+      "geometry": {
+        "default": "geometry.bulb"
+      },
+      "spawn_egg": {
+        "texture": "pokemon_spawn_egg",
+        "texture_index": 0
+      },
+      "render_controllers": [ "controller.render.bulbasaur" ]
+    }
+  }
+}

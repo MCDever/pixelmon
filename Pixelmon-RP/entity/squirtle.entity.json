@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pokemon:squirtle",
+      "materials": { "default": "squirtle" },
+      "textures": {
+        "normal": "textures/entity/squirtle",
+        "shiny": "textures/entity/shiny_squirtle"
+      },
+      "geometry": {
+        "default": "geometry.squirtle"
+      },
+      "spawn_egg": {
+        "texture": "pokemon_spawn_egg",
+        "texture_index": 2
+      },
+      "render_controllers": [ "controller.render.squirtle" ]
+    }
+  }
+}

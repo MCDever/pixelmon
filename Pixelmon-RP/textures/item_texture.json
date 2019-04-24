@@ -1,0 +1,13 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "pokemon_spawn_egg": {
+      "textures": [
+        "textures/items/bulbasaur_spawn_egg",
+        "textures/items/charmander_spawn_egg",
+        "textures/items/squirtle_spawn_egg"
+      ]
+    }
+  }
+}

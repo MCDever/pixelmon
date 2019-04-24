@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pokemon:charmander",
+      "materials": { "default": "charmander" },
+      "textures": {
+        "normal": "textures/entity/charmander",
+        "shiny": "textures/entity/shiny_charmander"
+      },
+      "geometry": {
+        "default": "geometry.charmander"
+      },
+      "spawn_egg": {
+        "texture": "pokemon_spawn_egg",
+        "texture_index": 1
+      },
+      "render_controllers": [ "controller.render.charmander" ]
+    }
+  }
+}
