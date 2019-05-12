@@ -1,0 +1,39 @@
+body{
+    font-family: "mojangles";
+    font-size: 70px;
+}
+#tab{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+#data1{
+    position: absolute;
+    top: 60px;
+    left: 170px;
+}
+#data2{
+    position: absolute;
+    top: 190px;
+    left: 170px;
+}
+#data3{
+    position: absolute;
+    left: 170px;
+    top: 320px;
+}
+#data4{
+    position: absolute;
+    left: 170px;
+    top: 450px;
+}
+#data5{
+    position: absolute;
+    left:170px;
+    top: 580px;
+}
+#data6{
+    position: absolute;
+    left: 170px;
+    top: 710px;
+}
