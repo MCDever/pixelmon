@@ -1,0 +1,59 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.squirtle.look_at_target" : {
+			"bones" : {
+				"head" : {
+					"rotation" : [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+				}
+			},
+			"loop" : true
+		},
+		"animation.squirtle.move" : {
+			"bones" : {
+				"arm1" : {
+					"rotation" : [ "variable.tcos0", 0.0, 0.0 ]
+				},
+				"leg1" : {
+					"rotation" : [ "variable.tcos1 * 1.4", 0.0, 0.0 ]
+				},
+				"arm2" : {
+					"rotation" : [ "variable.tcos1", 0.0, 0.0 ]
+				},
+				"leg2" : {
+					"rotation" : [ "variable.tcos0 * 1.4", 0.0, 0.0 ]
+				}
+			},
+			"loop" : true
+		},
+		"animation.squirtle.bob" : {
+			"bones" : {
+				"arm1" : {
+					"rotation" : [ 0.0, 0.0, "((math.cos(query.life_time * 103.2) * 2.865) + 2.865) *-1.0" ]
+				},
+				"arm2" : {
+					"rotation" : [ 0.0, 0.0, "(math.cos(query.life_time * 103.2) * 2.865) + 2.865" ]
+				}
+			},
+			"loop" : true
+		},
+		"animation.squirtle.swimming" : {
+			"anim_time_update" : "query.modified_distance_moved",
+			"bones" : {
+				"leg1" : {
+					"rotation" : [ "math.clamp(math.cos(query.anim_time * 22.92) * query.modified_move_speed * 28.65, -90.0, 90.0) - this", "-this", "-this" ]
+				},
+				"leg2" : {
+					"rotation" : [ "math.clamp(math.cos(query.anim_time * 22.92 + 180) * query.modified_move_speed * 28.65, -90.0, 90.0) - this", "-this", "-this" ]
+				},
+				"leg3" : {
+					"rotation" : [ "-this", "-this", "math.clamp(math.cos(query.anim_time * 22.92 + 180) * query.modified_move_speed * 28.65, -90.0, 90.0) - this" ]
+				},
+				"leg4" : {
+					"rotation" : [ "-this", "-this", "math.clamp(math.cos(query.anim_time * 22.92) * query.modified_move_speed * 28.65, -90.0, 90.0) - this" ]
+				}
+			},
+			"loop" : true
+		}
+	}
+}

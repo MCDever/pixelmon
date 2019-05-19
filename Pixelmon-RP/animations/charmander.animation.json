@@ -1,0 +1,41 @@
+{
+	"format_version" : "1.8.0",
+	"animations" : {
+		"animation.charmander.look_at_target" : {
+			"bones" : {
+				"head" : {
+					"rotation" : [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+				}
+			},
+			"loop" : true
+		},
+		"animation.charmander.move" : {
+			"bones" : {
+				"arm" : {
+					"rotation" : [ "variable.tcos0", 0.0, 0.0 ]
+				},
+				"leg" : {
+					"rotation" : [ "variable.tcos1 * 1.4", 0.0, 0.0 ]
+				},
+				"arm2" : {
+					"rotation" : [ "variable.tcos1", 0.0, 0.0 ]
+				},
+				"leg2" : {
+					"rotation" : [ "variable.tcos0 * 1.4", 0.0, 0.0 ]
+				}
+			},
+			"loop" : true
+		},
+		"animation.charmander.bob" : {
+			"bones" : {
+				"arm" : {
+					"rotation" : [ 0.0, 0.0, "((math.cos(query.life_time * 103.2) * 2.865) + 2.865) *-1.0" ]
+				},
+				"arm2" : {
+					"rotation" : [ 0.0, 0.0, "(math.cos(query.life_time * 103.2) * 2.865) + 2.865" ]
+				}
+			},
+			"loop" : true
+		}
+	}
+}

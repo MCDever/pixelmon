@@ -1,5 +1,5 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
       "identifier": "pokemon:bulbasaur",
@@ -10,6 +10,17 @@
       },
       "geometry": {
         "default": "geometry.bulb"
+      },
+	  "animations": {
+        "walk": "animation.bulbasaur.walk",
+		"look_at_target": "animation.common.look_at_target",
+		"move": "controller.animation.bulbasaur.move"
+      },
+	  "scripts": {
+        "animate": [
+          "look_at_target",
+          "move"
+        ]
       },
       "spawn_egg": {
         "texture": "pokemon_spawn_egg",

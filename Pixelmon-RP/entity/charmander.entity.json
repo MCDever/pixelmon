@@ -11,6 +11,22 @@
       "geometry": {
         "default": "geometry.charmander"
       },
+	  "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed) * 57.3;",
+          "variable.tcos1 = -variable.tcos0;"
+        ]
+      },
+	  "animations": {
+        "look_at_target": "animation.charmander.look_at_target",
+        "move": "animation.charmander.move",
+        "bob": "animation.charmander.bob"
+      },
+	  "animation_controllers": [
+        { "look_at_target": "controller.animation.charmander.look_at_target" },
+        { "move": "controller.animation.charmander.move" },
+        { "bob": "controller.animation.charmander.bob" }
+      ],
       "spawn_egg": {
         "texture": "pokemon_spawn_egg",
         "texture_index": 1

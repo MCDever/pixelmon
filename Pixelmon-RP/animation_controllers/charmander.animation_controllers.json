@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "animation_controllers": {
+    "controller.animation.charmander.look_at_target": {
+      "states": {
+        "default": {
+          "animations": [ { "look_at_target": [] } ]
+        }
+      }
+    },
+	"controller.animation.charmander.move": {
+      "states": {
+        "default": {
+          "animations": [ { "move": [] } ]
+        }
+      }
+    },
+	"controller.animation.charmander.bob": {
+      "states": {
+        "default": {
+          "animations": [ { "bob": [] } ]
+        }
+      }
+    }
+  }
+}

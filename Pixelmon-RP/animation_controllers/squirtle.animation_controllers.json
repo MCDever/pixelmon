@@ -1,0 +1,37 @@
+{
+  "format_version": "1.8.0",
+  "animation_controllers": {
+    "controller.animation.squirtle.look_at_target": {
+      "states": {
+        "default": {
+          "animations": [ { "look_at_target": [] } ]
+        }
+      }
+    },
+	"controller.animation.squirtle.move": {
+      "states": {
+        "default": {
+          "animations": [ { "move": [] } ]
+        }
+      }
+    },
+	"controller.animation.squirtle.bob": {
+      "states": {
+        "default": {
+          "animations": [ { "bob": [] } ]
+        }
+      }
+    },
+	"controller.animation.squirtle.swimming": {
+      "states": {
+        "default": {
+          "transitions": [ { "swimming": "query.is_swimming" } ]
+        },
+        "swimming": {
+          "animations": [ { "swimming": [] } ],
+          "transitions": [ { "default": "!query.is_swimming" } ]
+        }
+      }
+    }
+  }
+}
