@@ -2,6 +2,15 @@
   "resource_pack_name": "vanilla",
   "texture_name": "atlas.items",
   "texture_data": {
+    "pokeball": {
+      "textures": "textures/items/pokeballs/pokeball.png"
+    },
+    "pokeball_bottom": {
+      "textures": "textures/items/pokeball/pokeball_bottom.png"
+    },
+    "pokeball_top": {
+      "textures": "textures/items/pokeball/pokeball_top.png"
+    },
     "pokemon_spawn_egg": {
       "textures": [
         "textures/items/bulbasaur_spawn_egg",
