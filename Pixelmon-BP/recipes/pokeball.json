@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "poke:pokeball"
+    "identifier": "pokemon:pokeball"
     },
 
     
@@ -14,17 +14,17 @@
     ],
     "key": {
       "#": {
-        "item": "poke:pokeball_top"
+        "item": "pokemon:pokeball_top"
       },
       "e" : {
-        "item": "poke:pokeball_bottom"
+        "item": "pokemon:pokeball_bottom"
       },
       "b" : {
-        "item": "minecraft:button"
+        "item": "minecraft:stone_button"
       }
     },
     "result": {
-      "item": "poke:pokeball"
+      "item": "pokemon:pokeball"
     }
   }
 }
