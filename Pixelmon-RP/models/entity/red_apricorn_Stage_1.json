@@ -1,0 +1,40 @@
+{
+  "format_version": "1.10.0",
+  "geometry.pokemon.red_apricorn_stage_1": {
+    "texturewidth": 64,
+    "textureheight": 64,
+    "visible_bounds_width": 1,
+    "visible_bounds_height": 1,
+    "visible_bounds_offset": [ 0, 0.5, 0 ],
+    "bones": [
+      {
+        "name": "seed",
+        "pivot": [ 0, 0, 0 ],
+        "cubes": [
+          {
+            "origin": [ -6, 0.1, -6 ],
+            "size": [ 12, 0, 12 ],
+            "uv": [ 0, 0 ]
+          }
+        ]
+      },
+      {
+        "name": "bone",
+        "pivot": [ 0, 0, 0 ],
+        "rotation": [ 0, -45, 0 ],
+        "cubes": [
+          {
+            "origin": [ -2, 0, 0 ],
+            "size": [ 4, 3, 0 ],
+            "uv": [ 0, 0 ]
+          },
+          {
+            "origin": [ 0, 0, -2 ],
+            "size": [ 0, 3, 4 ],
+            "uv": [ 0, 0 ]
+          }
+        ]
+      }
+    ]
+  }
+}
