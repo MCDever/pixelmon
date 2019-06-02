@@ -1,0 +1,18 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "pokemon:poke_cent": {
+    "textures": {
+      "up": "poke_cent_top",
+      "down": "poke_cent_side",
+      "north": "poke_cent_side",
+      "south": "poke_cent_side",
+      "east": "poke_cent_side",
+      "west": "poke_cent_side"
+    },
+    "sound": "metal"
+  }
+}

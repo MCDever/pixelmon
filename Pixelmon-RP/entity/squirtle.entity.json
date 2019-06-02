@@ -3,37 +3,46 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "pokemon:squirtle",
-      "materials": { "default": "squirtle" },
+      "materials": {
+        "default": "squirtle"
+      },
       "textures": {
-        "normal": "textures/entity/squirtle",
-        "shiny": "textures/entity/shiny_squirtle"
+        "normal": "textures/entity/squirtle/squirtle",
+        "shiny": "textures/entity/squirtle/shiny_squirtle"
       },
       "geometry": {
         "default": "geometry.squirtle"
       },
-	  "scripts": {
+      "scripts": {
         "pre_animation": [
           "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed) * 57.3;",
           "variable.tcos1 = -variable.tcos0;"
         ]
       },
-	  "animations": {
+      "animations": {
         "look_at_target": "animation.squirtle.look_at_target",
         "move": "animation.squirtle.move",
         "bob": "animation.squirtle.bob",
         "swimming": "animation.squirtle.swimming"
       },
-	  "animation_controllers": [
-        { "look_at_target": "controller.animation.squirtle.look_at_target" },
-        { "move": "controller.animation.squirtle.move" },
-        { "bob": "controller.animation.squirtle.bob" },
-        { "swimming": "controller.animation.squirtle.swimming" }
+      "animation_controllers": [
+        {
+          "look_at_target": "controller.animation.squirtle.look_at_target"
+        },
+        {
+          "move": "controller.animation.squirtle.move"
+        },
+        {
+          "bob": "controller.animation.squirtle.bob"
+        }
       ],
       "spawn_egg": {
         "texture": "pokemon_spawn_egg",
         "texture_index": 2
       },
-      "render_controllers": [ "controller.render.squirtle" ]
+      "render_controllers": [
+        "controller.render.squirtle"
+      ]
     }
   }
 }

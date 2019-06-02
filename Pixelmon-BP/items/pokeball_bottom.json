@@ -1,8 +1,8 @@
 {
-    "format_version": "1.10",
-    "minecraft:item": {
-      "description": {
-        "identifier": "pokemon:pokeball_bottom"
-      }
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pokemon:pokeball_bottom"
     }
+  }
 }

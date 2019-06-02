@@ -1,8 +1,8 @@
 {
-	"materials": {
-		"version": "1.0.0",
-		"bulbasaur:entity": {},
-		"charmander:entity": {},
-		"squirtle:entity": {}
-	}
+  "materials": {
+    "version": "1.0.0",
+    "bulbasaur:entity": {},
+    "charmander:entity": {},
+    "squirtle:entity": {}
+  }
 }

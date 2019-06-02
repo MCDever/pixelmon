@@ -1,18 +1,30 @@
 {
-    "format_version": 1,
+  "format_version": 1,
   "header": {
     "description": "The Pixelmon Resources: visit our site at ",
     "name": "Pixelmon Addon Resources",
     "uuid": "1e14c795-01bc-4b40-b56b-6da3741d6289",
-    "version": [ 0, 0, 1 ],
-    "min_engine_version": [ 1, 2, 6 ]
-  },
-    "modules": [
-      {
-        "description": "Example vanilla resource pack",
-        "type": "resources",
-        "uuid": "22ef2b38-f240-43a2-a912-ae7a4ca714e2",
-        "version": [ 0, 0, 1 ]
-      }
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      2,
+      6
     ]
+  },
+  "modules": [
+    {
+      "description": "Example vanilla resource pack",
+      "type": "resources",
+      "uuid": "22ef2b38-f240-43a2-a912-ae7a4ca714e2",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    }
+  ]
 }

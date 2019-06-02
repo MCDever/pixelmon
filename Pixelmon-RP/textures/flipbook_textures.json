@@ -1,0 +1,10 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/poke_cent/poke_cent_top_anim",
+    "atlas_index": 1,
+    "atlas_tile_variant": 1,
+    "atlas_tile": "poke_cent_top",
+    "ticks_per_frame": 5,
+    "blend_frames": true
+  }
+]

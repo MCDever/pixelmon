@@ -1,0 +1,17 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "poke_cent_top": {
+      "textures": [
+        "textures/blocks/poke_cent/poke_cent_top",
+        "textures/blocks/poke_cent/poke_cent_top_anim"
+      ]
+    },
+    "poke_cent_side": {
+      "textures": "textures/blocks/poke_cent/poke_cent_side"
+    }
+  }
+}

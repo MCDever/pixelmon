@@ -5,7 +5,9 @@
       "states": {
         "default": {
           "animations": [
-            { "walk": "query.modified_move_speed" }
+            {
+              "walk": "query.modified_move_speed"
+            }
           ]
         }
       }

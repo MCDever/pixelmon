@@ -4,21 +4,33 @@
     "controller.animation.charmander.look_at_target": {
       "states": {
         "default": {
-          "animations": [ { "look_at_target": [] } ]
+          "animations": [
+            {
+              "look_at_target": []
+            }
+          ]
         }
       }
     },
-	"controller.animation.charmander.move": {
+    "controller.animation.charmander.move": {
       "states": {
         "default": {
-          "animations": [ { "move": [] } ]
+          "animations": [
+            {
+              "move": []
+            }
+          ]
         }
       }
     },
-	"controller.animation.charmander.bob": {
+    "controller.animation.charmander.bob": {
       "states": {
         "default": {
-          "animations": [ { "bob": [] } ]
+          "animations": [
+            {
+              "bob": []
+            }
+          ]
         }
       }
     }

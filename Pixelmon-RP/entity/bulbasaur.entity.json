@@ -3,30 +3,34 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "pokemon:bulbasaur",
-      "materials": { "default": "bulbasaur" },
+      "materials": {
+        "default": "bulbasaur"
+      },
       "textures": {
-        "normal": "textures/entity/bulb",
-        "shiny": "textures/entity/shiny_bulb"
+        "normal": "textures/entity/bulbasaur/bulb",
+        "shiny": "textures/entity/bulbasaur/shiny_bulb"
       },
       "geometry": {
         "default": "geometry.bulb"
       },
-	  "animations": {
-        "walk": "animation.bulbasaur.walk",
-		"look_at_target": "animation.common.look_at_target",
-		"move": "controller.animation.bulbasaur.move"
-      },
-	  "scripts": {
+      "scripts": {
         "animate": [
           "look_at_target",
           "move"
         ]
       },
+      "animations": {
+        "look_at_target": "animation.common.look_at_target",
+        "move": "controller.animation.bulbasaur.move",
+        "walk": "animation.bulbasaur.walk"
+      },
       "spawn_egg": {
         "texture": "pokemon_spawn_egg",
         "texture_index": 0
       },
-      "render_controllers": [ "controller.render.bulbasaur" ]
+      "render_controllers": [
+        "controller.render.bulbasaur"
+      ]
     }
   }
 }

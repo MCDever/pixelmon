@@ -4,32 +4,50 @@
     "controller.animation.squirtle.look_at_target": {
       "states": {
         "default": {
-          "animations": [ { "look_at_target": [] } ]
+          "animations": [
+            {
+              "look_at_target": []
+            }
+          ]
         }
       }
     },
 	"controller.animation.squirtle.move": {
       "states": {
         "default": {
-          "animations": [ { "move": [] } ]
-        }
-      }
-    },
-	"controller.animation.squirtle.bob": {
-      "states": {
-        "default": {
-          "animations": [ { "bob": [] } ]
-        }
-      }
-    },
-	"controller.animation.squirtle.swimming": {
-      "states": {
-        "default": {
-          "transitions": [ { "swimming": "query.is_swimming" } ]
+          "animations": [
+            {
+              "move": []
+            }
+          ],
+		  "transitions": [
+            {
+              "swimming": "query.is_in_water"
+            }
+          ]
         },
         "swimming": {
-          "animations": [ { "swimming": [] } ],
-          "transitions": [ { "default": "!query.is_swimming" } ]
+          "animations": [
+            {
+              "swimming": []
+            }
+          ],
+          "transitions": [
+            {
+              "default": "!query.is_in_water"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.squirtle.bob": {
+      "states": {
+        "default": {
+          "animations": [
+            {
+              "bob": []
+            }
+          ]
         }
       }
     }
