@@ -2,7 +2,7 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "pokemon:pokeball_top_shell"
+      "identifier": "pokemon:apricorn_red"
     }
   }
 }

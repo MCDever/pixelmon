@@ -11,6 +11,9 @@
     "pokeball_top": {
       "textures": "textures/items/pokeballs_top/pokeball_top"
     },
+    "apricorn_red": {
+      "textures": "textures/items/apricorn/apricorn_red"
+    },
     "pokemon_spawn_egg": {
       "textures": [
         "textures/items/bulbasaur_spawn_egg",

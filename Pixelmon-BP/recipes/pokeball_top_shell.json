@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+      "identifier": "pokemon:pokeball_top_shell"
+    },
+
+
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "pokemon:apricorn_red",
+        "data": 3
+      },
+      {
+        "item": "minecraft:shears"
+      }
+    ],
+    "result": [
+      {
+        "item": "minecraft:cake",
+        "count": 2
+      },
+      {
+        "item": "minecraft:shears"}
+    ]
+  }
+}

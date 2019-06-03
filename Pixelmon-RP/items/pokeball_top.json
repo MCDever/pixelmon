@@ -2,7 +2,7 @@
   "format_version": "1.10",
   "minecraft:item": {
     "description": {
-      "identifier": "pokemon:pokeball_top",
+      "identifier": "pokemon:pokeball_top_shell",
       "category": "Equipment"
     },
     "components": {
