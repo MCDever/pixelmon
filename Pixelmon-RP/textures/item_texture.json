@@ -13,13 +13,6 @@
     },
     "apricorn_red": {
       "textures": "textures/items/apricorns/red_apricorn"
-    },
-    "pokemon_spawn_egg": {
-      "textures": [
-        "textures/items/bulbasaur_spawn_egg",
-        "textures/items/charmander_spawn_egg",
-        "textures/items/squirtle_spawn_egg"
-      ]
     }
   }
 }

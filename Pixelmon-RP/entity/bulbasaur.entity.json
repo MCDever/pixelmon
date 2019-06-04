@@ -25,9 +25,9 @@
         "walk": "animation.bulbasaur.walk"
       },
       "spawn_egg": {
-        "texture": "pokemon_spawn_egg",
-        "texture_index": 0
-      },
+		"base_color": "#A7D3BA",
+		"overlay_color": "#74AB77"
+	  },
       "render_controllers": [
         "controller.render.bulbasaur"
       ]

@@ -37,9 +37,9 @@
         }
       ],
       "spawn_egg": {
-        "texture": "pokemon_spawn_egg",
-        "texture_index": 2
-      },
+		"base_color": "#64DCFE",
+		"overlay_color": "#3C9ACB"
+	  },
       "render_controllers": [
         "controller.render.squirtle"
       ]

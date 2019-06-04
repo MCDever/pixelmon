@@ -20,11 +20,11 @@
         "stage_4": "geometry.red_apricorn_stage_5",
 		"stage_5": "geometry.red_apricorn_stage_6"
       },
-      "render_controllers": [ "controller.render.apricorn_red_entity" ],
-      "spawn_egg": {
-        "texture": "spawn_egg",
-        "texture_index": 44
-      }
+	  "spawn_egg": {
+		  "base_color": "#E1534A",
+		  "overlay_color": "#93353D"
+		},
+      "render_controllers": [ "controller.render.apricorn_red_entity" ]
     }
   }
 }

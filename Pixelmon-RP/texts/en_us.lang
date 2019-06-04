@@ -19,4 +19,5 @@ entity.pokemon:apricorn_red_entity.name=Red Apricorn
 tile.pokemon:poke_cent.name=Pokémon Center Station
 
 
-## Misc
+## UI and Misc
+apricorn.interact.collect=Collect
