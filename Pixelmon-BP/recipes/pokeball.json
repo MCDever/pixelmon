@@ -1,28 +1,23 @@
 {
   "format_version": "1.12",
-  "minecraft:recipe_shaped": {
+  "minecraft:recipe_shapeless": {
     "description": {
       "identifier": "pokemon:pokeball"
     },
     "tags": [
       "crafting_table"
     ],
-    "pattern": [
-      " # ",
-      " b ",
-      " e "
-    ],
-    "key": {
-      "#": {
-        "item": "pokemon:pokeball_top"
-      },
-      "e": {
+    "ingredients": [
+      {
         "item": "pokemon:pokeball_bottom"
       },
-      "b": {
+      {
+        "item": "pokemon:pokeball_top_shell"
+      },
+      {
         "item": "minecraft:stone_button"
       }
-    },
+    ],
     "result": {
       "item": "pokemon:pokeball"
     }

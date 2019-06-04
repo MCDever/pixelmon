@@ -12,7 +12,7 @@
       "textures": "textures/items/pokeballs_top/pokeball_top"
     },
     "apricorn_red": {
-      "textures": "textures/items/apricorn/apricorn_red"
+      "textures": "textures/items/apricorns/red_apricorn"
     },
     "pokemon_spawn_egg": {
       "textures": [

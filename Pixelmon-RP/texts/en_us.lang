@@ -1,5 +1,22 @@
+## Items
 item.pokemon:apricorn_red.name=Red Apricorn
 item.pokemon:pokeball.name=Poké Ball
 item.pokemon:pokeball_bottom.name=Poké Ball Base
 item.pokemon:pokeball_top_shell.name=Poké Ball Shell
-block.pokemon:poke_cent.name=Pokémon Center Station
+item.spawn_egg.entity.pokemon:charmander.name=Spawn Charmander
+item.spawn_egg.entity.pokemon:squirtle.name=Spawn Squirtle
+item.spawn_egg.entity.pokemon:bulbasaur.name=Spawn Bulbasaur
+item.spawn_egg.entity.pokemon:apricorn_red_entity.name=Spawn Red Apricorn
+
+
+## Entities
+entity.pokemon:charmander.name=Charmander
+entity.pokemon:squirtle.name=Squirtle
+entity.pokemon:bulbasaur.name=Bulbasaur
+entity.pokemon:apricorn_red_entity.name=Red Apricorn
+
+## Blocks
+tile.pokemon:poke_cent.name=Pokémon Center Station
+
+
+## Misc

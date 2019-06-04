@@ -1,0 +1,38 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.apricorn_red_entity": {
+      "arrays": {
+        "geometries": {
+          "Array.models": [
+            "Geometry.stage_0",
+            "Geometry.stage_1",
+            "Geometry.stage_2",
+            "Geometry.stage_3",
+            "Geometry.stage_4",
+            "Geometry.stage_5"
+          ]
+        },
+		"textures": {
+          "Array.variants": [
+            "Texture.stage_0",
+            "Texture.stage_1",
+            "Texture.stage_2",
+            "Texture.stage_3",
+            "Texture.stage_4",
+            "Texture.stage_5"
+          ]
+        }
+      },
+      "geometry": "Array.models[query.variant]",
+      "materials": [
+        {
+          "*": "Material.default"
+        }
+      ],
+      "textures": [
+        "Array.variants[query.variant]"
+      ]
+    }
+  }
+}

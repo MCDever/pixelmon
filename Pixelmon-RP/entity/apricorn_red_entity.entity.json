@@ -1,0 +1,30 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "pokemon:apricorn_red_entity",
+      "materials": { "default": "apricorn_red" },
+      "textures": {
+        "stage_0": "textures/entity/red_apricorn/red_apricorn_1",
+        "stage_1": "textures/entity/red_apricorn/red_apricorn_2",
+        "stage_2": "textures/entity/red_apricorn/red_apricorn_3",
+        "stage_3": "textures/entity/red_apricorn/red_apricorn_4",
+        "stage_4": "textures/entity/red_apricorn/red_apricorn_5",
+		"stage_5": "textures/entity/red_apricorn/red_apricorn_6"
+      },
+      "geometry": {
+        "stage_0": "geometry.red_apricorn_stage_1",
+        "stage_1": "geometry.red_apricorn_stage_2",
+        "stage_2": "geometry.red_apricorn_stage_3",
+        "stage_3": "geometry.red_apricorn_stage_4",
+        "stage_4": "geometry.red_apricorn_stage_5",
+		"stage_5": "geometry.red_apricorn_stage_6"
+      },
+      "render_controllers": [ "controller.render.apricorn_red_entity" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 44
+      }
+    }
+  }
+}
