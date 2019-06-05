@@ -1,0 +1,23 @@
+## Items
+item.pokemon:apricorn_red.name=Red Apricorn
+item.pokemon:pokeball.name=Poké Ball
+item.pokemon:pokeball_bottom.name=Poké Ball Base
+item.pokemon:pokeball_top_shell.name=Poké Ball Shell
+item.spawn_egg.entity.pokemon:charmander.name=Huevo Charmander
+item.spawn_egg.entity.pokemon:squirtle.name=Huevo Squirtle
+item.spawn_egg.entity.pokemon:bulbasaur.name=Huevo Bulbasaur
+item.spawn_egg.entity.pokemon:apricorn_red_entity.name=Planta Red Apricorn
+
+
+## Entities
+entity.pokemon:charmander.name=Charmander
+entity.pokemon:squirtle.name=Squirtle
+entity.pokemon:bulbasaur.name=Bulbasaur
+entity.pokemon:apricorn_red_entity.name=Apricorn Rojo
+
+## Blocks
+tile.pokemon:poke_cent.name=Centro Pokémon
+
+
+## UI and Misc
+apricorn.interact.collect=Recoger

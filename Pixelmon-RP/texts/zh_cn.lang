@@ -1,0 +1,23 @@
+## Items
+item.pokemon:apricorn_red.name=紅球果
+item.pokemon:pokeball.name=精靈球
+item.pokemon:pokeball_bottom.name=精靈球 Base
+item.pokemon:pokeball_top_shell.name=精靈球 Shell
+item.spawn_egg.entity.pokemon:charmander.name=小火龍 계란
+item.spawn_egg.entity.pokemon:squirtle.name=車厘龜 계란
+item.spawn_egg.entity.pokemon:bulbasaur.name=奇異種子 계란
+item.spawn_egg.entity.pokemon:apricorn_red_entity.name=紅球果
+
+
+## Entities
+entity.pokemon:charmander.name=小火龍
+entity.pokemon:squirtle.name=車厘龜
+entity.pokemon:bulbasaur.name=奇異種子
+entity.pokemon:apricorn_red_entity.name=紅球果
+
+## Blocks
+tile.pokemon:poke_cent.name=寶可夢中心
+
+
+## UI and Misc
+apricorn.interact.collect=수집

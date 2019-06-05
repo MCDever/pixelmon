@@ -1,0 +1,16 @@
+## Items
+item.pokemon:apricorn_red.name=Bolota vermelha
+item.pokemon:pokeball.name=Poké Bolota
+item.pokemon:pokeball_bottom.name=Poké Bola Base
+item.pokemon:pokeball_top_shell.name=Poké Bola Concha
+item.spawn_egg.entity.pokemon:charmander.name=desovar Charmander
+item.spawn_egg.entity.pokemon:squirtle.name=desovar Squirtle
+item.spawn_egg.entity.pokemon:bulbasaur.name=desovar Bulbasaur
+item.spawn_egg.entity.pokemon:apricorn_red_entity.name=Plantar Bolota vermelha
+
+
+## Entities
+entity.pokemon:apricorn_red_entity.name=Bolota vermelha
+
+## Blocks
+tile.pokemon:poke_cent.name=Centro Pokémon

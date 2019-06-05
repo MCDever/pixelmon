@@ -1,0 +1,23 @@
+## Items
+item.pokemon:apricorn_red.name=Apricorn Rouge
+item.pokemon:pokeball.name=Poké Ball
+item.pokemon:pokeball_bottom.name=Poké Ball Base
+item.pokemon:pokeball_top_shell.name=Poké Ball Shell
+item.spawn_egg.entity.pokemon:charmander.name=Œuf Salamèche
+item.spawn_egg.entity.pokemon:squirtle.name=Œuf Carapuce
+item.spawn_egg.entity.pokemon:bulbasaur.name=Œuf Bulbizarre
+item.spawn_egg.entity.pokemon:apricorn_red_entity.name=plante Apricorn Rouge
+
+
+## Entities
+entity.pokemon:charmander.name=Salamèche
+entity.pokemon:squirtle.name=Carapuce
+entity.pokemon:bulbasaur.name=Bulbizarre
+entity.pokemon:apricorn_red_entity.name=Apricorn Rouge
+
+## Blocks
+tile.pokemon:poke_cent.name=Centre Pokémon
+
+
+## UI and Misc
+apricorn.interact.collect=Collecte

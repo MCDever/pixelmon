@@ -1,0 +1,23 @@
+## Items
+item.pokemon:apricorn_red.name=빨간규토리
+item.pokemon:pokeball.name=몬스터볼
+item.pokemon:pokeball_bottom.name=몬스터볼 Base
+item.pokemon:pokeball_top_shell.name=몬스터볼 Shell
+item.spawn_egg.entity.pokemon:charmander.name=파이리 계란
+item.spawn_egg.entity.pokemon:squirtle.name=꼬부기 계란
+item.spawn_egg.entity.pokemon:bulbasaur.name=이상해씨 계란
+item.spawn_egg.entity.pokemon:apricorn_red_entity.name=빨간규토리
+
+
+## Entities
+entity.pokemon:charmander.name=파이리
+entity.pokemon:squirtle.name=꼬부기
+entity.pokemon:bulbasaur.name=이상해씨
+entity.pokemon:apricorn_red_entity.name=빨간규토리
+
+## Blocks
+tile.pokemon:poke_cent.name=포켓몬센터
+
+
+## UI and Misc
+apricorn.interact.collect=수집

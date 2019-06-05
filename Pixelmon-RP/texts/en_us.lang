@@ -6,7 +6,7 @@ item.pokemon:pokeball_top_shell.name=Poké Ball Shell
 item.spawn_egg.entity.pokemon:charmander.name=Spawn Charmander
 item.spawn_egg.entity.pokemon:squirtle.name=Spawn Squirtle
 item.spawn_egg.entity.pokemon:bulbasaur.name=Spawn Bulbasaur
-item.spawn_egg.entity.pokemon:apricorn_red_entity.name=Spawn Red Apricorn
+item.spawn_egg.entity.pokemon:apricorn_red_entity.name=Plant Red Apricorn
 
 
 ## Entities

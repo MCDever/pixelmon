@@ -1,0 +1,23 @@
+## Items
+item.pokemon:apricorn_red.name=あかぼんぐり 
+item.pokemon:pokeball.name=モンスターボール 上
+item.pokemon:pokeball_bottom.name=モンスターボール
+item.pokemon:pokeball_top_shell.name=モンスターボール  シェル
+item.spawn_egg.entity.pokemon:charmander.name=ヒトカゲ 卵
+item.spawn_egg.entity.pokemon:squirtle.name=ゼニガメ 卵
+item.spawn_egg.entity.pokemon:bulbasaur.name=フシギダネ 卵
+item.spawn_egg.entity.pokemon:apricorn_red_entity.name=あかぼんぐり 
+
+
+## Entities
+entity.pokemon:charmander.name=ヒトカゲ
+entity.pokemon:squirtle.name=ゼニガメ
+entity.pokemon:bulbasaur.name=フシギダネ
+entity.pokemon:apricorn_red_entity.name=あかぼんぐり 
+
+## Blocks
+tile.pokemon:poke_cent.name=ポケセン
+
+
+## UI and Misc
+apricorn.interact.collect=集める
