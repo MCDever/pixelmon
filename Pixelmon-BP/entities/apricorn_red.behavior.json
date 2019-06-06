@@ -82,7 +82,7 @@
           "height": 0.9
         },
         "minecraft:ageable": {
-          "duration": 60,
+          "duration": 150,
           "grow_up": {
             "event": "apricorn:to_stage_6",
             "target": "self"

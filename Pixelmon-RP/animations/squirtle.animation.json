@@ -65,35 +65,86 @@
       },
       "loop": true
     },
-    "animation.squirtle.swimming": {
+    "animation.squirtle.swim": {
       "anim_time_update": "query.modified_distance_moved",
       "bones": {
         "leg1": {
           "rotation": [
-            "math.clamp(math.cos(query.anim_time * 22.92) * query.modified_move_speed * 28.65, -90.0, 90.0) - this",
-            "-this",
-            "-this"
+            "math.min(45, 45 * query.modified_move_speed * 2)",
+            0,
+            0
+          ],
+		  "position": [
+            0,
+            0,
+            "math.min(3, 3 * query.modified_move_speed * 2)"
           ]
         },
         "leg2": {
           "rotation": [
-            "math.clamp(math.cos(query.anim_time * 22.92 + 180) * query.modified_move_speed * 28.65, -90.0, 90.0) - this",
-            "-this",
-            "-this"
+            "math.min(45, 45 * query.modified_move_speed * 2)",
+            0,
+            0
+          ],
+		  "position": [
+            0,
+            0,
+            "math.min(3, 3 * query.modified_move_speed * 2)"
+          ]
+        },
+		"head": {
+		  "position": [
+            0,
+            "math.max(-5, -5 * query.modified_move_speed * 2)",
+            "math.max(-8, -8 * query.modified_move_speed * 2)"
+          ]
+        },
+		"body": {
+          "rotation": [
+            "math.min(70, 70 * query.modified_move_speed * 2)",
+            0,
+            0
+          ],
+		  "position": [
+            0,
+            "math.min(1, 1 * query.modified_move_speed * 2)",
+            "math.min(4, 4 * query.modified_move_speed * 2)"
+          ]
+        },
+		"tail": {
+          "rotation": [
+            0,
+            "math.cos(query.anim_time * 60) * 15 * query.modified_move_speed",
+            0
+          ],
+		  "position": [
+            0,
+            0,
+            "math.max(-1, -1 * query.modified_move_speed * 2)"
           ]
         },
         "arm1": {
           "rotation": [
-            "-this",
-            "-this",
-            "math.clamp(math.cos(query.anim_time * 22.92 + 180) * query.modified_move_speed * 28.65, -90.0, 90.0) - this"
+            "math.max(-100, -100 * query.modified_move_speed * 2)",
+            "math.cos(query.anim_time * 80) * math.min(45, 45 * query.modified_move_speed)",
+            0
+          ],
+		  "position": [
+            0,
+            "math.max(-5, -5 * query.modified_move_speed * 2)",
+            "math.max(-4, -4 * query.modified_move_speed * 2)"
           ]
         },
         "arm2": {
           "rotation": [
-            "-this",
-            "-this",
-            "math.clamp(math.cos(query.anim_time * 22.92) * query.modified_move_speed * 28.65, -90.0, 90.0) - this"
+            "math.max(-100, -100 * query.modified_move_speed * 2)",
+            "math.sin(query.anim_time * 80) * math.min(45, 45 * query.modified_move_speed)",
+            0
+          ],
+		  "position": [
+            0,
+            "math.max(-5, -5 * query.modified_move_speed * 2)",
+            "math.max(-4, -4 * query.modified_move_speed * 2)"
           ]
         }
       },

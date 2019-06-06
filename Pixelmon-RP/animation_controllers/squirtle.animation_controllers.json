@@ -22,14 +22,14 @@
           ],
 		  "transitions": [
             {
-              "swimming": "query.is_in_water"
+              "swim": "query.is_in_water"
             }
           ]
         },
-        "swimming": {
+        "swim": {
           "animations": [
             {
-              "swimming": []
+              "swim": []
             }
           ],
           "transitions": [

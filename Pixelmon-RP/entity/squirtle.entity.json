@@ -23,7 +23,7 @@
         "look_at_target": "animation.squirtle.look_at_target",
         "move": "animation.squirtle.move",
         "bob": "animation.squirtle.bob",
-        "swimming": "animation.squirtle.swimming"
+        "swim": "animation.squirtle.swim"
       },
       "animation_controllers": [
         {
