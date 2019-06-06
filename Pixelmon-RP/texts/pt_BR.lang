@@ -1,16 +1,23 @@
 ## Items
-item.pokemon:apricorn_red.name=Bolota vermelha
-item.pokemon:pokeball.name=Poké Bolota
-item.pokemon:pokeball_bottom.name=Poké Bola Base
-item.pokemon:pokeball_top_shell.name=Poké Bola Concha
-item.spawn_egg.entity.pokemon:charmander.name=desovar Charmander
-item.spawn_egg.entity.pokemon:squirtle.name=desovar Squirtle
-item.spawn_egg.entity.pokemon:bulbasaur.name=desovar Bulbasaur
-item.spawn_egg.entity.pokemon:apricorn_red_entity.name=Plantar Bolota vermelha
+item.pokemon:apricorn_red.name=Apricorn Vermelho
+item.pokemon:pokeball.name=Boké-Bola
+item.pokemon:pokeball_bottom.name=Base de Poké-Bola
+item.pokemon:pokeball_top_shell.name=Tampa de Poké-Bola
+item.spawn_egg.entity.pokemon:charmander.name=Invocar Charmander
+item.spawn_egg.entity.pokemon:squirtle.name=Invocar Squirtle
+item.spawn_egg.entity.pokemon:bulbasaur.name=Invocar Bulbassauro
+item.spawn_egg.entity.pokemon:apricorn_red_entity.name=Plantar Apricorn Vermelho
 
 
 ## Entities
-entity.pokemon:apricorn_red_entity.name=Bolota vermelha
+entity.pokemon:charmander.name=Charmander
+entity.pokemon:squirtle.name=Squirtle
+entity.pokemon:bulbasaur.name=Bulbasauro
+entity.pokemon:apricorn_red_entity.name=Apricorn Vermelho
 
 ## Blocks
-tile.pokemon:poke_cent.name=Centro Pokémon
+tile.pokemon:poke_cent.name=Centro de cura Pokémon
+
+
+## UI and Misc
+apricorn.interact.collect=Coletar

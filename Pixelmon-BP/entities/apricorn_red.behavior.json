@@ -18,7 +18,7 @@
           "height": 0.15
         },
 		"minecraft:ageable": {
-          "duration": 3,
+          "duration": 300,
           "grow_up": {
             "event": "apricorn:to_stage_2",
             "target": "self"
@@ -34,7 +34,7 @@
           "height": 0.25
         },
         "minecraft:ageable": {
-          "duration": 3,
+          "duration": 300,
           "grow_up": {
             "event": "apricorn:to_stage_3",
             "target": "self"
@@ -50,7 +50,7 @@
           "height": 0.5
         },
         "minecraft:ageable": {
-          "duration": 3,
+          "duration": 300,
           "grow_up": {
             "event": "apricorn:to_stage_4",
             "target": "self"
@@ -66,7 +66,7 @@
           "height": 0.75
         },
         "minecraft:ageable": {
-          "duration": 3,
+          "duration": 300,
           "grow_up": {
             "event": "apricorn:to_stage_5",
             "target": "self"
@@ -82,7 +82,7 @@
           "height": 0.9
         },
         "minecraft:ageable": {
-          "duration": 3,
+          "duration": 60,
           "grow_up": {
             "event": "apricorn:to_stage_6",
             "target": "self"
@@ -347,7 +347,7 @@
         },
         "add": {
           "component_groups": [
-            "apricorn:stage_5"
+            "apricorn:stage_4"
           ]
         }
       },
