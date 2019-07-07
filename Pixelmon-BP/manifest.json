@@ -20,6 +20,15 @@
         0,
         1
       ]
+    },
+		{
+			"type": "client_data",
+			"uuid": "12c15c9d-b3c7-4eca-bdd4-275c1df4334a",
+			"version": [
+				1,
+				8,
+				0
+			]
     }
   ],
   "dependencies": [

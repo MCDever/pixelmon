@@ -1,0 +1,43 @@
+.b{
+    position: absolute;
+    background:url(skins/bulb.png);
+    top:290px;
+    left:110px;
+    width: 500px;
+    height: 500px;
+    border: none;
+    
+}
+.c{
+    position: absolute;
+    background:url(skins/char.png);
+    top:290px;
+    left:710px;
+    width: 500px;
+    height: 500px;
+    border: none;
+    
+}
+.s{
+    position: absolute;
+    background:url(skins/squ.png);
+    top:290px;
+    left:1310px;
+    width: 500px;
+    height: 500px;
+    border: none; 
+}
+
+.body{
+    background:url(skins/back.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.text{
+    position: absolute;
+    top:88px;
+    color: #6B6B6B;
+    left:512px;
+    font-size: 80px;
+    font-family: mojangles;
+}
