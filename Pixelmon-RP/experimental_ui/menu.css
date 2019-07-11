@@ -1,43 +1,59 @@
+@font-face {
+    font-family: 'mojang';
+    src: url(Mojangles.ttf);
+}
+body{
+    background-color: rgba(0, 0, 0, .5);
+}
+.back {
+    position: absolute;
+    width: 1500px;
+    height: 900px;
+    left: 210px;
+    top: 90px;
+}
 .b{
     position: absolute;
-    background:url(skins/bulb.png);
-    top:290px;
-    left:110px;
-    width: 500px;
-    height: 500px;
+    background:url(skins/bulbBU.png);
+    top: 463px;
+    left: 363px;
+    width: 300px;
+    height: 300px;
     border: none;
     
+}
+.b:hover{
+    background: url(skins/bulbBU_hover.PNG);
 }
 .c{
     position: absolute;
-    background:url(skins/char.png);
-    top:290px;
-    left:710px;
-    width: 500px;
-    height: 500px;
+    background:url(skins/charBU.png);
+    top: 463px;
+    left: 1257px;
+    width: 300px;
+    height: 300px;
     border: none;
-    
+}
+.c:hover {
+    background: url(skins/charBU_hover.PNG);
 }
 .s{
     position: absolute;
-    background:url(skins/squ.png);
-    top:290px;
-    left:1310px;
-    width: 500px;
-    height: 500px;
-    border: none; 
+    background:url(skins/squrtBU.png);
+    top: 463px;
+    left: 810px;
+    width: 300px;
+    height: 300px;
+    border: none;
 }
-
-.body{
-    background:url(skins/back.png) no-repeat center center fixed;
-    background-size: cover;
+.s:hover {
+    background: url(skins/squrtBU_hover.PNG);
 }
-
 .text{
     position: absolute;
-    top:88px;
-    color: #6B6B6B;
-    left:512px;
+    top: 65px;
+    color: #4c4c4c;
+    left: 488px;
     font-size: 80px;
-    font-family: mojangles;
+    font-family: 'mojang';
 }
